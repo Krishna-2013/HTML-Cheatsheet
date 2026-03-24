@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+nav{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    color: white;
+    height: 72px;
+}
+
+.logo {
+    padding: 0 23px;
+}
+
+.logo img {
+    width: 30px;
+}
+
+.content {
+    font-family: "Potta One", cursive;
+}
+
+.container {
+    width: 60vw;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+li {
+    margin-top: 40px;
+}
+
+.toolbar-item button {
+    cursor: pointer !important;
+    color: black !important;
+    border: 2px solid orange !important;
+    background-color: white !important;
+    border-radius: 20px !important;
+}
+
+.lighter {
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.extra {
+    margin: 15px 30px;
+    padding: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(229 231 235);
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 5px 10px;
+    border: 2px solid black;
+}

@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Cheatsheet by Krishna</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="prism.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="copy.png" alt="" /></span>
+        <div class="content center">
+            <p>This HTML Cheatsheet is For You!</p>
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+            <li>
+                <p>HTML Boilerplate</p>
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    The content will be here
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Headings</p>
+                <p class="lighter">
+                    There are six levels of headings. &lt;h1&gt; is the most important
+                    (largest), and &lt;h6&gt; is the least important (smallest).
+                </p>
+                <pre class="language-html"><code>&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Containers</p>
+                <p class="lighter">Container elements group or hold other content.</p>
+                <pre class="language-html"><code>&lt;div&gt;This is a block container (div)&lt;/div&gt;
+&lt;span&gt;This is an inline container (span)&lt;/span&gt;
+&lt;p&gt;This is a paragraph&lt;/p&gt;
+&lt;pre&gt;Preserves formatting and spaces&lt;/pre&gt;
+&lt;code&gt;console.log("Code snippet")&lt;/code&gt;
+&lt;blockquote&gt;A block quotation of text&lt;/blockquote&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Text Formatting</p>
+                <pre class="language-html"><code>&lt;b&gt;Bold text&lt;/b&gt;
+&lt;strong&gt;Important text (semantic)&lt;/strong&gt;
+&lt;i&gt;Italic text&lt;/i&gt;
+&lt;em&gt;Emphasized text (semantic)&lt;/em&gt;
+&lt;u&gt;Underlined text&lt;/u&gt;
+&lt;mark&gt;Highlighted text&lt;/mark&gt;
+&lt;small&gt;Smaller text&lt;/small&gt;
+&lt;del&gt;Deleted text&lt;/del&gt;
+&lt;ins&gt;Inserted text&lt;/ins&gt;
+&lt;sub&gt;Subscript&lt;/sub&gt;
+&lt;sup&gt;Superscript&lt;/sup&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Lists</p>
+                <p class="lighter">Ordered List</p>
+                <pre class="language-html"><code>&lt;ol&gt;
+  &lt;li&gt;First&lt;/li&gt;
+  &lt;li&gt;Second&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+            </li>
+
+            <hr />
+            <p class="lighter">Unordered List</p>
+            <pre class="language-html"><code>&lt;ul&gt;
+  &lt;li&gt;Item A&lt;/li&gt;
+  &lt;li&gt;Item B&lt;/li&gt;
+  &lt;/ul&gt;</code></pre>
+
+            <hr />
+
+            <p class="lighter">Definition List</p>
+            <pre class="language-html"><code>&lt;dl&gt;
+      &lt;dt&gt;HTML&lt;/dt&gt;
+      &lt;dd&gt;HyperText Markup Language&lt;/dd&gt;
+      &lt;/dl&gt;</code></pre>
+
+            <hr />
+
+            <li>
+                <p>Media</p>
+                <pre class="language-html"><code>&lt;img src="image.jpg" alt="Description" width="300" height="200"&gt;
+ 
+&lt;audio controls&gt;
+  &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;
+ 
+&lt;video width="480" height="320" controls&gt;
+  &lt;source src="video.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+ 
+&lt;iframe src="https://www.example.com" width="600" height="400"&gt;&lt;/iframe&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Tables</p>
+                <pre class="language-html"><code>&lt;table border="1"&gt;
+  &lt;caption&gt;Sample Table&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Column 1&lt;/th&gt;
+      &lt;th colspan="2"&gt;Column 2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td rowspan="2"&gt;Rowspan&lt;/td&gt;
+      &lt;td&gt;Data A&lt;/td&gt;
+      &lt;td&gt;Data B&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Data C&lt;/td&gt;
+      &lt;td&gt;Data D&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Total&lt;/td&gt;
+      &lt;td colspan="2"&gt;100&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Links</p>
+                <pre class="language-html"><code>&lt;a href="https://www.codewithharry.com" target="_blank" rel="noopener"&gt;Visit CodeWithHarry&lt;/a&gt;
+&lt;a href="mailto:example@email.com"&gt;Send Email&lt;/a&gt;
+&lt;a href="#section1"&gt;Jump to Section&lt;/a&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Forms & Inputs</p>
+                <pre class="language-html"><code>&lt;form action="/action.php" method="post"&gt;
+  &lt;label for="username"&gt;Username:&lt;/label&gt;
+  &lt;input type="text" id="username" name="username"&gt;&lt;br&gt;
+
+  &lt;input type="password" name="password" placeholder="Enter Password"&gt;&lt;br&gt;
+
+  &lt;input type="checkbox" name="subscribe" value="yes"&gt; Subscribe&lt;br&gt;
+
+  &lt;input type="radio" name="gender" value="male"&gt; Male
+  &lt;input type="radio" name="gender" value="female"&gt; Female&lt;br&gt;
+
+  &lt;select name="country"&gt;
+    &lt;option value="us"&gt;USA&lt;/option&gt;
+    &lt;option value="ca"&gt;Canada&lt;/option&gt;
+  &lt;/select&gt;&lt;br&gt;
+
+  &lt;textarea name="comments" rows="4" cols="30"&gt;&lt;/textarea&gt;&lt;br&gt;
+
+  &lt;input type="file" name="resume"&gt;&lt;br&gt;
+  &lt;input type="number" name="age" min="18" max="100"&gt;&lt;br&gt;
+  &lt;input type="range" name="volume" min="0" max="100"&gt;&lt;br&gt;
+  &lt;input type="date" name="dob"&gt;&lt;br&gt;
+  &lt;input type="email" name="email"&gt;&lt;br&gt;
+  &lt;input type="url" name="website"&gt;&lt;br&gt;
+  &lt;input type="search" name="query"&gt;&lt;br&gt;
+
+  &lt;button type="submit"&gt;Submit&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Characters & Symbols</p>
+                <pre class="language-html"><code>&amp;copy;  ©
+&amp;lt;    &lt;
+&amp;gt;    &gt;
+&amp;amp;   &amp;
+&amp;dollar; $
+&amp;trade;  ™
+&amp;reg;    ®
+&amp;nbsp;   (non-breaking space)</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Comments</p>
+                <pre class="language-html"><code>&lt;!-- This is a comment --&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Semantic Elements</p>
+                <pre class="language-html"><code>&lt;header&gt;Page header&lt;/header&gt;
+&lt;nav&gt;Navigation links&lt;/nav&gt;
+&lt;section&gt;Section of content&lt;/section&gt;
+&lt;article&gt;Independent article&lt;/article&gt;
+&lt;aside&gt;Sidebar content&lt;/aside&gt;
+&lt;footer&gt;Page footer&lt;/footer&gt;
+&lt;main&gt;Main content&lt;/main&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Meta Tags</p>
+                <pre class="language-html"><code>&lt;meta charset="UTF-8"&gt;
+&lt;meta name="description" content="HTML Cheatsheet"&gt;
+&lt;meta name="keywords" content="HTML, Cheatsheet, Code"&gt;
+&lt;meta name="author" content="Your Name"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>CSS Integration</p>
+                <pre class="language-html"><code>&lt;!-- Write CSS in HTML file --&gt;
+&lt;style&gt;
+  body { font-family: Arial; background-color: #f0f0f0; }
+&lt;/style&gt;
+
+or
+
+&lt;!-- Write CSS in another CSS file --&gt;
+&lt;link rel="stylesheet" href="styles.css"&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>JavaScript Integration</p>
+                <pre class="language-html"><code>&lt;!-- Write JS in HTML file --&gt;
+&lt;script&gt;
+  console.log("Hello, World!");
+&lt;/script&gt;
+
+or
+
+&lt;!-- Write JS in another JS file --&gt;
+&lt;script src="script.js"&gt;&lt;/script&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Accessibility</p>
+                <pre class="language-html"><code>&lt;img src="dog.jpg" alt="Brown dog running in a park"&gt;
+&lt;label for="email"&gt;Email:&lt;/label&gt;
+&lt;input type="email" id="email" name="email"&gt;</code></pre>
+            </li>
+
+            <hr />
+
+            <li>
+                <p>Responsive Design</p>
+                <pre class="language-html"><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+&lt;style&gt;
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+  }
+&lt;/style&gt;</code></pre>
+            </li>
+
+            <hr />
+        </ol>
+
+        <h1>Beginner Tips</h1>
+        <ol>
+            <li class="extra">Use a modern editor (VS Code) with Emmet.</li>
+            <li class="extra">Indent and close all tags properly.</li>
+            <li class="extra">Practice using semantic elements.</li>
+            <li class="extra">Always include alt for images.</li>
+            <li class="extra">Learn CSS + JavaScript alongside HTML.</li>
+            <li class="extra">Test your HTML in multiple browsers.</li>
+            <li class="extra">Use the W3C Validator to check for errors.</li>
+        </ol>
+        <a href="https://cwh-full-next-space.fra1.cdn.digitaloceanspaces.com/cheatsheets/HTML%20Cheatsheet.pdf">Download HTML Cheatsheet</a>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <script src="prism.js"></script>
+</body>
+
+</html>
