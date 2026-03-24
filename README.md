@@ -21,6 +21,8 @@ This project is a reference guide for common HTML elements and concepts.
 - Prism.css
 
 ## 📂 Project Structure
+
+```
 project-folder/
 │── index.html
 │── style.css
@@ -28,6 +30,7 @@ project-folder/
 │── prism.js
 │── copy.png
 │── copy.svg
+```
 
 ## 📚 Purpose
 
