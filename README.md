@@ -2,6 +2,15 @@
 
 A simple HTML cheatsheet built using **HTML, CSS, Prism.js, and Prism.css** to display syntax-highlighted code examples.
 
+## 📸 Screenshots
+
+<img width="1919" height="868" alt="image" src="https://github.com/user-attachments/assets/cfd1eafb-063a-412b-807b-abc46ef9dbfa" />
+
+
+## 🚀 Live Demo
+
+https://krishna-2013.github.io/HTML-Cheatsheet/
+
 ## 📌 Overview
 
 This project is a reference guide for common HTML elements and concepts.
