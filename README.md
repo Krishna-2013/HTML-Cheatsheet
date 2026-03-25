@@ -67,4 +67,8 @@ GitHub: https://github.com/Krishna-2013
 
 - **Prism.js** for syntax highlighting  
 - **Prism.css** for styling code blocks  
-- Open-source community resources for learning and references  
+- Open-source community resources for learning and references
+
+## ⭐ Show Your Support
+
+If you like this project, give it a ⭐ on GitHub!
